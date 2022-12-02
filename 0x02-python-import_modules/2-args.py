@@ -13,3 +13,4 @@ if __name__ == "__main__":
                 print("{}: {}".format(i, argv[i]))
             exit()
     print("0 arguments.")
+
