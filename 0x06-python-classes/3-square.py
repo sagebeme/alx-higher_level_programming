@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 3-square.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Sagebeme
 """Define a class Square."""
 
 
