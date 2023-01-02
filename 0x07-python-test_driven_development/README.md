@@ -3,10 +3,6 @@
 In this project, I started practicing test-driven development using `docstring`
 and `unittest` in Python.
 
-## Tests :heavy_check_mark:
-
-
-
 ## Function Prototypes :floppy_disk:
 
 Prototypes for functions written in this project:
