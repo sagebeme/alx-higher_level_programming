@@ -1,5 +1,5 @@
 #!/usr/bin/python4
-# 1-rectangle.py
+# 0-rectangle.py
 # Sagebeme
 """Defines a Rectangle class."""
 
