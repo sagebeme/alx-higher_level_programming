@@ -1,115 +1,123 @@
-# SQL - Introduction
+# 0x0D. SQL - Introduction
 
-This was my first project in which I began to work with SQL and relational
-databases. I began practicing introductory data definition and data
-manipulation language, making subqueries, and using functions.
+## Resource
 
-## Usage :dolphin:
+- [SQL Tutorial - w3-schools](https://www.w3schools.com/sql/default.asp)
+- [Databases](./Databases_Concepts.pdf)
+- [What is Database & SQL](https://www.youtube.com/watch?v=FR4QIeZaPeM)
+- [A Basic MySQL Tut](https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial)
+- [Basic SQL statements:DDL and DML](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/ddldml.php) (*no need to read the chapter "Privileges"*)
+- [Basic queries: SQL and RA](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/queries.php)
+- [SQL technique: functions](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/functions.php)
+- [SQL technique: subqueries](https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/subqueries.php)
+- [What makes the big difference between a backtick and an apostrophe?](https://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458)
+- [MySQL CheatSheet](https://intellipaat.com/mediaFiles/2019/02/SQL-Commands-Cheat-Sheet.pdf)
+- [MySQL 8.0 SQL Statement Syntax](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
 
-* Scripts [3-list_tables.sql](./3-list_tables.sql) forward take the database to query
-from as a MySQL command line argument.
+## Tasks
 
-```
-$ cat 3-list_tables.sql | mysql -h localhost -u root -p mysql
-```
+<details>
+<summary><a href="./0-list_databases.sql">0. List databases</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/jCVSrjmX/image.png' border='0' alt='image'/></a>
+</details>
 
-* Tasks 101-103 query from the database [temperatures.sql](./temperatures.sql).
+<details>
+<summary><a href="./1-create_database_if_missing.sql">1. Create database</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7hXv4S9w/image.png' border='0' alt='image'/></a>
+</details>
 
-## Tasks :page_with_curl:
+<details>
+<summary><a href="./2-remove_database.sql">2. Delete a database</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/XNZ4SPSz/image.png' border='0' alt='image'/></a><br /><a href='https://banks-nearme.com/regions-bank-near-me'>what time does regions bank close today</a><br />
+</details>
 
-* **0. List databases**
-  * [0-list_databases.sql](./0-list_databases.sql): MySQL script that lists all databases.
 
-* **1. Create a database**
-  * [1-create_database.sql](./1-create_database.sql): MySQL script that creates the database
-  `hbtn_0c_0`.
+<details>
+<summary><a href="./3-list_tables.sql">3. List tables</a></summary><br>
+<a href='https://postimg.cc/Hr5NJMCZ' target='_blank'><img src='https://i.postimg.cc/nhwfPKSJ/image.png' border='0' alt='image'/></a>
+</details>
 
-* **2. Delete a database**
-  * [2-remove_databases.sql](./2-remove_databases.sql): MySQL script that deletes the database
-  `hbtn_0c_0`.
+<details>
+<summary><a href="./4-first_table.sql">4. First table</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/LXQyHvf9/image.png' border='0' alt='image'/></a>
+</details>
 
-* **3. List tables**
-  * [3-list_tables.sql](./3-list_tables.sql): MySQL script that lists all tables.
+<details>
+<summary><a href="./5-full_table.sql">5. Full description</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/kXFdC6w2/image.png' border='0' alt='image'/></a>
+</details>
 
-* **4. First table**
-  * [4-first_table.sql](./4-first_table.sql): MySQL script that creates a table `first_table`.
-  * Description:
-    * `id`: INT
-    * `name`: VARCHAR(256)
+<details>
+<summary><a href="./6-list_values.sql">6. List all in table</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/kXSbWhbt/image.png' border='0' alt='image'/></a>
+</details>
 
-* **5. Full description**
-  * [5-full_table.sql](./5-full_table.sql): MySQL script that prints the full description of the
-  table `first_table`.
+<details>
+<summary><a href="./7-insert_value.sql">7. First add</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7ZsmfZJN/image.png' border='0' alt='image'/></a>
+</details>
 
-* **6. List all in table**
-  * [6-list_values.sql](./6-list_values.sql): MySQL script that lists all rows of the table
-  `first_table`.
+<details>
+<summary><a href="./8-count_89.sql">8. Count 89</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7Z3qkjCD/image.png' border='0' alt='image'/></a>
+</details>
 
-* **7. First add**
-  * [7-insert_value.sql](./7-insert_value.sql): MySQL script that inserts a new row in the table
-  `first_table`.
-  * Description:
-    * `id` = `89`
-    * `name` = `Holberton School`
+<details>
+<summary><a href="./9-full_creation.sql">9. Full creation</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/23pMV8q6/image.png' border='0' alt='image'/></a>
+</details>
 
-* **8. Count 89**
-  * [8-count_89.sql](./8-count_89.sql): MySQL script that displays the number records with `id =
-  89` in the table `first_table`.
+<details>
+<summary><a href="./10-top_score.sql">10. List by best</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/hGb201XK/image.png' border='0' alt='image'/></a><br /><a href='https://suwalls.com/vector/sad-girl-silhouette'></a>
+</details>
 
-* **9. Full creation**
-  * [9-full_creation.sql](./9-full_creation.sql): MySQL script that creates and fills a table
-  `second_table`.
-  * Description:
-    * `id`: INT
-    * `name`: VARCHAR(256)
-    * `score`: INT
-  * Records:
-    * `id` = 1, `name` = "John", `score` = 10
-    * `id` = 2, `name` = "Alex", `score` = 3
-    * `id` = 3, `name` = "Bob", `score` = 14
-    * `id` = 4, `name` = "George", `score` = 8
+<details>
+<summary><a href="./11-best_score.sql">11. Select the best</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CKYCSTJK/image.png' border='0' alt='image'/></a>
+</details>
 
-* **10. List by best**
-  * [10-top_score.sql](./10-top_score.sql): MySQL script that lists the `score` and `name` of all
-  records of the table `second_table` in order of descending `score`.
+<details>
+<summary><a href="./12-no_cheating.sql">12. Cheating is bad</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/RVSQkzsV/image.png' border='0' alt='image'/></a>
+</details>
 
-* **11. Select the best**
-  * [11-best_score.sql](./11-best_score.sql): MySQL script that lists the `score` and `name` of all
-  records with a `score >= 10` in the table `second_table` in order of descending score.
+<details>
+<summary><a href="./13-change_class.sql">13. Score too low</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HLwtGsgn/image.png' border='0' alt='image'/></a>
+</details>
 
-* **12. Cheating is bad**
-  * [12-no_cheating.sql](./12-no_cheating.sql): MySQL script that updates the score of Bob to 10
-  the table `second_table`.
+<details>
+<summary><a href="./14-average.sql">14. Average</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/gk4rnxV8/image.png' border='0' alt='image'/></a>
+</details>
 
-* **13. Score too low**
-  * [13-change_class.sql](./13-change_class.sql): MySQL script that removes all records with a
-  `score <= 5` in the table `second_table`.
+<details>
+<summary><a href="./15-groups.sql">15. Number by score</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/VLzpK637/image.png' border='0' alt='image'/></a>
+</details>
 
-* **14. Average**
-  * [14-average.sql](./14-average.sql): MySQL script that computes the average `score` of all
-  records in the table `second_table`.
+<details>
+<summary><a href="./16-no_link.sql">16. Say my name</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/ZKZnj8b1/image.png' border='0' alt='image'/></a>
+</details>
 
-* **15. Number by score**
-  * [15-groups.sql](./15-groups.sql): MySQL script that lists the `score` and number of records
-  with the same score in the table `second_table` in order of descending count.
+<details>
+<summary><a href="./100-move_to_utf8.sql">17. Go to UTF8</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/m25D40NG/image.png' border='0' alt='image'/></a>
+</details>
 
-* **16. Say my name**
-  * [16-no_link.sql](./16-no_link.sql): MySQL script that lists the `score` and `name` of all
-  records in the table `second_table` in order of descending `score`.
-  * Does not display rows without a `name` value.
+<details>
+<summary><a href="./101-avg_temperatures.sql">18. Temperatures #0</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/8cGKnpzB/image.png' border='0' alt='image'/></a>
+</details>
 
-* **17. Go to UTF8**
-  * [100-move_to_utf8.sql](./100-move_to_utf8.sql): MySQL script that converts the `hbtn_0c_0`
-  database to UTF8.
+<details>
+<summary><a href="./102-top_city.sql">19. Temperatures #1</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/x8wTFGjh/image.png' border='0' alt='image'/></a>
+</details>
 
-* **18. Temperatures #0**
-  * [101-avg_temperatures.sql](./101-avg_temperatures.sql): MySQL script that displays the average
-  temperature (Fahrenheit) by city in descending order.
-
-* **19. Temperatures #1**
-  * [102-top_city.sql](./102-top_city.sql): MySQL script that displays the three cities with the
-  highest average temperature from July to August in descending order.
-
-* **20. Temperature #2**
-  * [103-max_state.sql](./103-max_state.sql): MySQL script that displays the max temperature of each
-  state in order of state name.
+<details>
+<summary><a href="./103-max_state.sql">20. Temperatures #2</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/K8vn2Lnw/image.png' border='0' alt='image'/></a>
+</details>
