@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 
+"""
+Database - import database modules
+"""
+
+import sys
+import MySQLdb
 '''
     Lists all states with a name starting with N from the data base hbtn_0e_0_usa.
     Usage: ./1-filter_states.py <mysql username>\
@@ -7,8 +13,6 @@
                                 <database name>
 '''
 
-import sys
-import MySQLdb
 
 if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1],
