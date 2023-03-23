@@ -1,23 +1,23 @@
 #!/usr/bin/python3
-""" slqalchmy query """
 
+"""module - return all states with the letter a in their names"""
+from sqlalchemy import (create_engine)
 from model_state import Base, State
 from sqlalchemy.orm import sessionmaker
-import sys
-from sqlalchemy import (create_engine)
+from sqlalchemy.ext.declarative import declarative_base
+from sys import argv
 
 
 if __name__ == "__main__":
     engine = create_engine(
-        'mysql+mysqldb://{}:{}@localhost:3306/{}'
-        .format(sys.argv[1], sys.argv[2], sys.argv[3]),
-        pool_pre_ping=True
-        )
+            'mysql+mysqldb://{}:{}@localhost/{}'
+            .format(argv[1],argv[2],argv[3]),
+            pool_pre_ping=True)
+    Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     session = Session()
-    query = session.query(State).filter(State.name.like('%a%'))\
-        .order_by(State.id)
-    results = query.all()
-    for state in results:
-        print(f"{state.id}: {state.name}")
+    result = session.query(State).order_by(State.id)\
+                                 .filter(State.name.like("%a%")).all()
+    for res in result:
+        print("{}: {}".format(res.id, res.name))
     session.close()

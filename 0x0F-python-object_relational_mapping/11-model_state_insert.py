@@ -1,24 +1,22 @@
 #!/usr/bin/python3
-""" slqalchmy query """
 
-from model_state import Base, State
+"""module - adding a new element"""
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-import sys
-from sqlalchemy import create_engine, desc
-
+from model_state import Base, State
+from sqlalchemy.ext.declarative import declarative_base
+from sys import argv
 
 if __name__ == "__main__":
+
     engine = create_engine(
-        'mysql+mysqldb://{}:{}@localhost:3306/{}'
-        .format(sys.argv[1], sys.argv[2], sys.argv[3]),
-        pool_pre_ping=True
-        )
+            'mysql+mysqldb://{}:{}@localhost/{}'
+            .format(argv[1],argv[2],argv[3]))
+    Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     session = Session()
-    new_state = State(name="Louisiana")
-    session.add(new_state)
+    new_object = State(name='Louisiana')
+    session.add(new_object)
     session.commit()
-    results = session.query(State.id).order_by(State.id.desc()).first()
-    if (results):
-        print(results[0])
+    print(new_object.id)
     session.close()
