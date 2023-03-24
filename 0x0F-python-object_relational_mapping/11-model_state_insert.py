@@ -8,15 +8,14 @@ from sqlalchemy.ext.declarative import declarative_base
 from sys import argv
 
 if __name__ == "__main__":
-
-    engine = create_engine(
-            'mysql+mysqldb://{}:{}@localhost/{}'
-            .format(argv[1],argv[2],argv[3]))
+    engine = create_engine("mysql+mysqldb://{}:{}@localhost/{}"
+                           .format(argv[1], argv[2], argv[3]),
+                           pool_pre_ping=True)
     Base.metadata.create_all(engine)
-    Session = sessionmaker(bind=engine)
-    session = Session()
-    new_object = State(name='Louisiana')
-    session.add(new_object)
+    session_maker = sessionmaker(bind=engine)
+    session = session_maker()
+
+    obj = State(name="Louisiana")
+    session.add(obj)
     session.commit()
-    print(new_object.id)
-    session.close()
+    print(obj.id)
