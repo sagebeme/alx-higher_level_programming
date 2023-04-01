@@ -3,7 +3,7 @@
 and uses the Github API to display my ID
 """
 
-import sys
+from sys import argv
 import requests
 from requests.auth import HTTPBasicAuth
 
