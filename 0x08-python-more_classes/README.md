@@ -4,6 +4,21 @@ In this project, I continued to practice object-oriented programming in Python.
 I learned about class methods, static methods, class vs instance attributes, and
 how to use the special `__str__` and `__repr__` methods.
 
+Tasks
+-----
+
+### 0. Rectangle and more classes (tasks 0–101)
+
+mandatory
+
+Define Rectangle class with width, height, area, perimeter, __str__, __repr__, class/static methods, and optional advanced tasks. Implement each task file as specified. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x08-python-more_classes`
+-   File: (task files as per project)
+
 ## Tasks :page_with_curl:
 
 * **0. Simple rectangle**

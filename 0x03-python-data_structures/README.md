@@ -3,6 +3,21 @@
 In this project, I learned about how sequence data types work in
 Python - specifically, lists and tuples.
 
+Tasks
+-----
+
+### 0. Lists and tuples (tasks 0–100)
+
+mandatory
+
+Implement functions that work with lists and tuples: print list, element_at, replace_in_list, print_reversed_list_integer, new_in_list, no_c, print_matrix_integer, add_tuple, multiple_returns, max_integer, divisible_by_2, delete_at, and optional C extension. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x03-python-data_structures`
+-   File: (task files 0–100 as per project)
+
 ## Function Prototypes :floppy_disk:
 
 Prototypes for functions written in this project:

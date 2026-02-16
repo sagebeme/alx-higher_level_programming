@@ -4,6 +4,21 @@
 - By Sagebeme
 - Weight: 1
 
+Tasks
+-----
+
+### 0. JavaScript warm up (scripting tasks)
+
+mandatory
+
+Complete JavaScript scripting tasks: variables, loops, functions, objects, and basic syntax. Run: `node <file>.js` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x12-javascript-warm_up`
+-   File: (task .js files as per project)
+
 Background Context
 ------------------
 

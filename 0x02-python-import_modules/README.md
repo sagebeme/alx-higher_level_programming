@@ -1,5 +1,20 @@
 # 0x02. Python - import & modules
 
+Tasks
+-----
+
+### 0. Import and modules (tasks 0–5)
+
+mandatory
+
+Write programs that import functions (add, calculator_1), print program arguments, infinite addition, discover names in a compiled module, and load a variable. Run: `python3 <file>.py` or as specified per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x02-python-import_modules`
+-   File: (0-add.py, 1-calculation.py, 2-args.py, 3-infinite_add.py, 4-hidden_discovery.py, 5-variable_load.py or as per project)
+
 ## Resource
 
 - [Modules](https://docs.python.org/3.4/tutorial/modules.html)

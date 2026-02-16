@@ -1,85 +1,73 @@
-# Higher-level programming - Python, Databases & JavaScript
+# Higher-level programming — Python, SQL & JavaScript
 
-This repository contains programs written for the higher-level programming
-track at Holberton School. In these projects, which began occurring in month
-four of the year one curriculum, I learned Python, MySQL and JavaScript.
-Simultaneously, I continued to reinforce and expand my skills in C and shell
-scripting. The specific list of projects contained follows:
-## Acknowledgements :pray:
+This repository contains the **higher-level programming** track: Python (hello world, control flow, data structures, classes, testing, I/O, networking), SQL (intro and more queries), and JavaScript (warm-up, objects/scopes/closures, web scraping, jQuery). Each folder is a project or task; this README explains what each folder is for, what the main files do, and how to run the exercises.
 
-All work contained in this project was completed as part of the curriculum for
-Alx School. Alx School is a campus-based full-stack software
-engineering program that prepares students for careers in the tech industry
-using project-based peer learning.
+## Structure
 
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+* [0x00. Python - Hello World](./0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
+* [0x02. Python - Import & modules](./0x02-python-import_modules)
+* [0x03. Python - Data structures (lists, tuples)](./0x03-python-data_structures)
+* [0x04. Python - More data structures](./0x04-python-more_data_structures)
+* [0x05. Python - Exceptions](./0x05-python-exceptions)
+* [0x06. Python - Classes](./0x06-python-classes)
+* [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+* [0x08. Python - More classes](./0x08-python-more_classes)
+* [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+* [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](./0x0B-python-input_output)
+* [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+* [0x0E. SQL - More queries](./0x0E-SQL_more_queries)
+* [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping)
+* [0x10. Python - Network #0](./0x10-python-network_0)
+* [0x11. Python - Network #1](./0x11-python-network_1)
+* [0x12. JavaScript - Warm up](./0x12-javascript-warm_up)
+* [0x13. JavaScript - Objects, scopes, closures](./0x13-javascript_objects_scopes_closures)
+* [0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping)
+* [0x15. JavaScript - Web jQuery](./0x15-javascript-web_jquery)
 
-# Zen (Python)
+| Folder | Topic | What you'll practice |
+|--------|-------|----------------------|
+| [0x00-python-hello_world](./0x00-python-hello_world) | Python basics | First scripts, shebang, pycodestyle |
+| [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions) | Control flow | if/else, loops, functions |
+| [0x02-python-import_modules](./0x02-python-import_modules) | Modules | import, __name__, command-line args |
+| [0x03-python-data_structures](./0x03-python-data_structures) | Lists, tuples | List/tuple operations |
+| [0x04-python-more_data_structures](./0x04-python-more_data_structures) | Sets, dicts | set, dictionary, comprehensions |
+| [0x05-python-exceptions](./0x05-python-exceptions) | Exceptions | try/except, raise |
+| [0x06-python-classes](./0x06-python-classes) | OOP | Classes, attributes, methods |
+| [0x07-python-test_driven_development](./0x07-python-test_driven_development) | Testing | doctest, unittests |
+| [0x08-python-more_classes](./0x08-python-more_classes) | More OOP | __str__, __repr__, __eq__ |
+| [0x09-python-everything_is_object](./0x09-python-everything_is_object) | Objects & ids | Mutability, aliasing |
+| [0x0A-python-inheritance](./0x0A-python-inheritance) | Inheritance | super(), overriding |
+| [0x0B-python-input_output](./0x0B-python-input_output) | I/O | Files, JSON, with |
+| [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle) | Review project | Classes, serialization, tests |
+| [0x0D-SQL_introduction](./0x0D-SQL_introduction) | SQL | DDL, DML, SELECT |
+| [0x0E-SQL_more_queries](./0x0E-SQL_more_queries) | SQL advanced | JOINs, subqueries |
+| [0x0F-python-object_relational_mapping](./0x0F-python-object_relational_mapping) | ORM | SQLAlchemy, MySQL |
+| [0x10-python-network_0](./0x10-python-network_0) | HTTP | urllib, requests basics |
+| [0x11-python-network_1](./0x11-python-network_1) | HTTP & APIs | requests, JSON, REST |
+| [0x12-javascript-warm_up](./0x12-javascript-warm_up) | JS basics | Variables, loops, functions |
+| [0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures) | JS OOP | Objects, closures |
+| [0x14-javascript-web_scraping](./0x14-javascript-web_scraping) | Scraping | Request, Cheerio (Node) |
+| [0x15-javascript-web_jquery](./0x15-javascript-web_jquery) | jQuery | DOM, AJAX |
 
->Not sure if C has taught me to think like a programmer or python is just really easy.
+## Prerequisites
 
-<details>
-<summary>The Zen of Python, by Tim Peters</summary>
-<br>
-Beautiful is better than ugly.<br>
-Explicit is better than implicit.<br>
-Simple is better than complex.<br>
-Complex is better than complicated.<br>
-Flat is better than nested.<br>
-Sparse is better than dense.<br>
-Readability counts.<br>
-Special cases aren't special enough to break the rules.<br>
-Although practicality beats purity.<br>
-Errors should never pass silently.<br>
-Unless explicitly silenced.<br>
-In the face of ambiguity, refuse the temptation to guess.<br>
-There should be one-- and preferably only one --obvious way to do it.<br>
-Although that way may not be obvious at first unless you're Dutch.<br>
-Now is better than never.<br>
-Although never is often better than *right* now.<br>
-If the implementation is hard to explain, it's a bad idea.<br>
-If the implementation is easy to explain, it may be a good idea.<br>
-Namespaces are one honking great idea -- let's do more of those!
+- Python 3, pip, pycodestyle: `sudo apt-get install python3 python3-pip` then `pip install pycodestyle`
+- MySQL (for SQL and ORM projects)
+- Node.js (for JavaScript projects)
 
-</details>
+## Quick reference
 
->I thought I had escaped [betty](https://github.com/holbertonschool/Betty), but here we have [PEP8](https://www.python.org/dev/peps/pep-0008/)
-
-<details>
-<summary> Install Python3, pip3 and pycodestyle</summary>
-
-- Pycodestyle is now the new standard of Python style code.
-
-<pre>$ sudo apt-get install python3 python3-pip<br>$ pip install pycodestyle</pre>
-
-- Confirm you have the right version.
-
-<pre>$ pycodestyle --version<br>$</pre>
-
-</details>
+- Run a Python script: `python3 script.py`
+- Check style: `pycodestyle file.py`
+- Run SQL: `mysql -u root -p < file.sql` or use MySQL client
 
 ## About
 
-- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [Sagebeme](sagebeme.github.io/CV).
+This work was completed as part of the ALX Africa Full Stack Software Engineering course in partnership with Holberton School.
 
-## Author :Sagebeme:
+## Author
 
-* **Sage Macharia** <[Sagebeme](https://github.com/sagebeme)>
-
-## Resource
-
-- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-- [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
-- [The Python Handbook](https://www.freecodecamp.org/news/the-python-handbook/)
-- [pycodestyle](https://pypi.org/project/pycodestyle/)
-
----
-
-- [0x00](./0x00-python-hello_world) : Hello, World.
-- [0x01](./0x01-python-if_else_loops_functions) : if/else, loops, functions.
-- [0x02](./0x02-python-import_modules) : import & modules.
-- [0x03](./0x03-python-data_structures) : Data Structures: Lists, Tuples.
-- [0x0D](./0x0D-SQL_introduction) : SQL - Introduction.
-- [0x0E](./0x0E-SQL_more_queries) : SQL - More queries.
-- [0x10](./0x10-python-network_0) : Python - Network #0.
-- [0x11](./0x11-python-network_1) : Python - Network #1.
+**Sage Macharia** — [sagebeme](https://github.com/sagebeme)

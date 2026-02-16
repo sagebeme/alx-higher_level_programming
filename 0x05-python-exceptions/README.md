@@ -3,6 +3,20 @@
 In this project, I learned handling errors and exceptions in Python with `try`
 and `except`.
 
+Tasks
+-----
+
+### 0. Exceptions (tasks 0–103)
+
+mandatory
+
+Implement safe print and exception functions: safe_print_list, safe_print_integer, safe_print_list_integers, safe_print_division, list_division, raise_exception, raise_exception_msg, safe_print_integer_err, safe_function, and optional C extensions. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x05-python-exceptions`
+-   File: (task files as per project)
 
 ## Function Prototypes :floppy_disk:
 
