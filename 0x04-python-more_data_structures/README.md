@@ -3,6 +3,20 @@
 In this project, I learned about sets and dictionaries in Python. I practiced using them
 with the `lambda`, `map`, `filter`, and `reduce` methods.
 
+Tasks
+-----
+
+### 0. Set and dictionary (tasks 0–103)
+
+mandatory
+
+Implement functions using sets and dictionaries: square_matrix_simple, search_replace, uniq_add, common_elements, only_diff_elements, number_keys, print_sorted_dictionary, update_dictionary, simple_delete, multiply_by_2, best_score, roman_to_int, weight_average, and optional C extensions. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x04-python-more_data_structures`
+-   File: (task files as per project)
 
 ## Function Prototypes :floppy_disk:
 

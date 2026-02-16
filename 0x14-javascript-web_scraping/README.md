@@ -15,3 +15,18 @@ $ sudo npm install semistandard --global
 $ sudo npm install request --global
 $ export NODE_PATH=/usr/lib/node_modules
 ```
+
+Tasks
+-----
+
+### 0. Web scraping with Node/request
+
+mandatory
+
+Write scripts that fetch web pages, parse content, and extract data using the request module. Run: `node <file>.js` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x14-javascript-web_scraping`
+-   File: (task .js files as per project)

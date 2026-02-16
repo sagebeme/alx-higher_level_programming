@@ -3,6 +3,21 @@
 In this project, I started practicing test-driven development using `docstring`
 and `unittest` in Python.
 
+Tasks
+-----
+
+### 0. TDD (tasks 0–102)
+
+mandatory
+
+Implement functions with doctests/unittest: add_integer, matrix_divided, say_my_name, print_square, text_indentation, matrix_mul, lazy_matrix_mul, and optional C extension. Run: `python3 -m doctest <file>.py` or `python3 -m pytest tests/` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x07-python-test_driven_development`
+-   File: (task files as per project)
+
 ## Function Prototypes :floppy_disk:
 
 Prototypes for functions written in this project:

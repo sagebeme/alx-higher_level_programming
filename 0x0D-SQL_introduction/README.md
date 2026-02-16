@@ -1,5 +1,20 @@
 # 0x0D. SQL - Introduction
 
+Tasks
+-----
+
+### 0. SQL introduction (list DBs, create, delete, tables, select, etc.)
+
+mandatory
+
+Write MySQL scripts: list databases, create/delete database, create table, insert, select, update, delete, and related tasks. Run: `mysql -u user -p < script.sql` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x0D-SQL_introduction`
+-   File: (task .sql files as per project)
+
 ## Resource
 
 - [SQL Tutorial - w3-schools](https://www.w3schools.com/sql/default.asp)

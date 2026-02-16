@@ -1,4 +1,19 @@
-# 0x10. Python - Network #0 
+# 0x10. Python - Network #0
+
+Tasks
+-----
+
+### 0. HTTP and cURL (body size, methods, headers, etc.)
+
+mandatory
+
+Write cURL and Python scripts: body size, body to end, delete, methods, header, POST, only status code, JSON, catch me if you can. Run: `./script` or `python3 script.py` as per task.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x10-python-network_0`
+-   File: (task .sh and .py files as per project)
 
 ## Resource
 

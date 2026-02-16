@@ -5,6 +5,21 @@ classes and objects in Python. I learned about attributes, methods, and
 properties as well as data abstraction, data encapsulation, and information
 hiding.
 
+Tasks
+-----
+
+### 0. Classes and objects (Square, etc.)
+
+mandatory
+
+Define classes (e.g. Square) with size, area, getter/setter, and optional advanced features. Implement each task file (0-square.py through 103-python.c) as specified. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x06-python-classes`
+-   File: (task files as per project)
+
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by alxschool School.

@@ -4,6 +4,21 @@ In this project, I practiced file handling in Python. I used the builtin `with`,
 `open`, and `read` functions with the `json` module to read and write files and
 serialize and deserialize objects with JSON.
 
+Tasks
+-----
+
+### 0. File I/O and JSON (tasks 0–100)
+
+mandatory
+
+Implement read_file, number_of_lines, read_lines, write_file, append_write, to_json_string, from_json_string, save_to_json_file, load_from_json_file, class_to_json, pascal_triangle, append_after. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x0B-python-input_output`
+-   File: (task files as per project)
+
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.

@@ -4,6 +4,21 @@ In this second Holberton JavaScript project I dived into the infamously fun
 aspects of the language - scope, closures and `this`. I practiced working with
 objects and ES6-style classes.
 
+Tasks
+-----
+
+### 0. Objects, scopes, closures (Rectangle, occurrences, esrever, logMe, converter)
+
+mandatory
+
+Implement Rectangle, occurrences, esrever, logMe, converter and related tasks. Run: `node <file>.js` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x13-javascript_objects_scopes_closures`
+-   File: (task .js files as per project)
+
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.

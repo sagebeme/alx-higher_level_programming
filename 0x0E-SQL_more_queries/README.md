@@ -3,6 +3,21 @@
 In this project, I continued to practicing SQL queries, working with
 permissoins, joins, and constraints.
 
+Tasks
+-----
+
+### 0. More SQL (privileges, users, joins, subqueries)
+
+mandatory
+
+Write MySQL scripts for privileges, create user, create read user, force_name, and query tasks (joins, subqueries) on hbtn_0d_2, hbtn_0d_tvshows, etc. Run: `cat script.sql | mysql -hlocalhost -uroot -p db_name` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x0E-SQL_more_queries`
+-   File: (task .sql files as per project)
+
 ## Usage :dolphin:
 
 * Scripts [3-force_name.sql](./3-force_name.sql) forward take the database to query from

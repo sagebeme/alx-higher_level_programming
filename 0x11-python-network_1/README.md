@@ -1,4 +1,19 @@
-# 0x11. Python - Network #1 
+# 0x11. Python - Network #1
+
+Tasks
+-----
+
+### 0. HTTP with requests (status, header, POST, etc.)
+
+mandatory
+
+Use the requests package: fetch URL and display body/status, get header value, POST email, and related tasks. Run: `python3 <script>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x11-python-network_1`
+-   File: (task .py files as per project)
 
 ## Resource
 

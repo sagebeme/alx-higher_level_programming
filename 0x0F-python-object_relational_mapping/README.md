@@ -4,6 +4,21 @@ In this project, I learned about how object-relational mapping is used for
 database scripting. I became familiar with using MySQLdb and SQLAlchemy to
 query, create, edit, and delete tables in MySQL.
 
+Tasks
+-----
+
+### 0. ORM (MySQLdb and SQLAlchemy)
+
+mandatory
+
+Implement Python scripts using MySQLdb and SQLAlchemy: select states, filter states, parameterized queries, create state, relationship_city, etc. Run: `./script.py <user> <password> <db>` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x0F-python-object_relational_mapping`
+-   File: (task .py and .sql files as per project)
+
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of SQL and Python scripts for setting up test tables

@@ -17,6 +17,21 @@ The three classes involved utilizing the following Python tools:
 * JSON and CSV serialization/deserialization
 * Unittesting
 
+Tasks
+-----
+
+### 0. Base, Rectangle, Square (models + tests)
+
+mandatory
+
+Implement Base, Rectangle, and Square classes with serialization/deserialization (JSON, CSV), persistence, and unittest. Run: `python3 -m unittest discover tests` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x0C-python-almost_a_circle`
+-   File: (models/, tests/, task files as per project)
+
 ## Tests :heavy_check_mark:
 
 * [tests/test_models](./tests/test_models): Folder containing the following

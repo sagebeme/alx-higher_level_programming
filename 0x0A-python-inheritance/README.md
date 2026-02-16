@@ -5,6 +5,21 @@ differences between super- and sub-classes while practicing inheritance,
 definining classes with multiple base classes, and overiding inherited methods
 and attributes.
 
+Tasks
+-----
+
+### 0. Inheritance (lookup, MyList, BaseGeometry, etc.)
+
+mandatory
+
+Implement lookup, is_same_class, is_kind_of_class, inherits_from, MyList, BaseGeometry, and related classes. Run: `python3 <file>.py` or as per project.
+
+**Repo:**
+
+-   GitHub repository: `alx-higher_level_programming`
+-   Directory: `0x0A-python-inheritance`
+-   File: (task files as per project)
+
 ## Tests :heavy_check_mark:
 
 * [tests](./tests): Folder of test files. Includes both alx-provided ones
